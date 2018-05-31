@@ -1,0 +1,20 @@
+{
+  "name": "Memre",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Memre Bookmarking Tool",
+  "background": {
+    "scripts": [
+      "bookmark.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Save"
+  },
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "tabs"
+  ],
+  "web_accessible_resources": ["/process-login.js"]
+}
